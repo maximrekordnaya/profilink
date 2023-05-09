@@ -23,10 +23,9 @@ header {
     /*background-image: url('/storage/app/public/header.jpg');*/
     background: linear-gradient(330deg, #8bbc5b 50%, #9952e0 75%);
     padding-bottom: 40px;
-
 }
 
-h2, p {
+h2, p, label {
     font-family: 'Russo One', sans-serif;
 }
 
@@ -179,6 +178,34 @@ p{
 
 footer{
     background: linear-gradient(330deg, #8bbc5b 50%, #9952e0 75%);
+}
+.bg-main{
+    background: linear-gradient(330deg, #8bbc5b 50%, #9952e0 75%);
+}
+
+
+
+/*login*/
+
+.login-card{
+    margin: auto;
+    background: white;
+    border-radius: 40px;
+}
+
+.login-card a{
+    color: blue;
+}
+
+/* errors auth
+ */
+.errors-list{
+    margin: 0;
+    padding: 0;
+}
+
+.errors-list li {
+    list-style: none;
 }
 
 
